@@ -1,0 +1,642 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.service-feature {
+  background-color: lightgray;
+  padding: 35px;
+}
+.service-head {
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.service-availability {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ser-box {
+  background-color: white;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+.ser-box p {
+  text-align: left;
+  padding: 12px 20px 0px 15px;
+}
+.ser-btn {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+.ser-btns {
+  background-color: hwb(43 0% 1%);
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  border: none;
+}
+.ser-box svg {
+  padding: 0;
+}
+
+header {
+  padding: 1.2rem 0;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+.main1 {
+  display: flex;
+  text-align: left;
+}
+.main1 div {
+  margin-left: 12px;
+}
+.main1 svg {
+  margin-top: 5%;
+}
+.main4 {
+  display: none;
+}
+.main3 {
+  text-align: left;
+  display: flex;
+}
+.main3 div {
+  margin-left: 12px;
+}
+.main3 svg {
+  margin-top: 5%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("./images/ExperienceTask-2/Assets/hero.png");
+  background-size: cover;
+  padding: 140px 0;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 0%;
+}
+
+.hero .welcome {
+  display: flex;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 70px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-left: 70px;
+}
+.hero .buttons {
+  margin-top: 20px;
+}
+.cta-button {
+  background-color: #f0c133;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.7ch;
+  font-weight: 600;
+  margin-left: 70px;
+}
+.cta-button1 {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.7ch;
+  font-weight: 600;
+}
+
+.cta-button2 {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.7ch;
+  font-weight: 600;
+}
+
+.meal {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+.meal-display {
+  display: flex;
+  justify-content: center;
+}
+.meal-text {
+  width: 430px;
+  text-align: left;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  padding-top: 80px;
+}
+.meal-text p {
+  padding: 20px 0 30px 0;
+}
+.product-meals {
+  align-items: center;
+  text-align: center;
+  background-color: silver;
+  padding: 30px;
+}
+.pro-head {
+  color: white;
+}
+.meals-rate {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.food {
+  background-color: white;
+  width: 290px;
+}
+.food img {
+  height: 150px;
+  width: 150px;
+  padding: 15px;
+}
+.cart {
+  background-color: rgb(237, 206, 30);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 35px;
+  justify-content: space-evenly;
+  width: 190px;
+  margin-right: 2px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+}
+.cart svg {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+}
+.cart p {
+  background-color: white;
+  width: 140px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.map-cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.head {
+  text-align: center;
+  margin-left: 180px;
+  margin-top: 50px;
+}
+.con-detail {
+  align-items: center;
+  margin-left: 250px;
+  font-size: 17px;
+  margin-top: 50px;
+}
+.icon {
+  padding: 15px;
+}
+.call {
+  display: flex;
+  padding: 20px;
+}
+.mail {
+  display: flex;
+  padding: 20px;
+}
+.work {
+  display: flex;
+  padding: 20px;
+}
+.right-side img {
+  height: 550px;
+  width: 800px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #4a4848;
+  color: #fff;
+  margin: 0;
+  padding: 30px;
+}
+
+.follow .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.follow p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.abt div {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-button3 {
+  background-color: black;
+  color: #fff;
+  padding: 9px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5ch;
+  font-weight: 500;
+  justify-content: center;
+}
+.contact .social {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 3px;
+  margin-left: 30%;
+}
+hr {
+  border: none;
+  border-top: 1.5px solid rgb(241, 179, 34);
+  width: 300px;
+}
+
+.follow h4 {
+  align-items: center;
+  margin-left: 30%;
+}
+
+.insta-img .col-1 img {
+  height: 50px;
+  width: 100px;
+}
+.insta-img .col-2 img {
+  height: 50px;
+  width: 100px;
+}
+
+.newsletter {
+  display: flex;
+  background-color: #f0c133;
+  justify-content: center;
+  align-items: center;
+}
+.form-email {
+  background-color: white;
+  width: 272px;
+  height: 30px;
+}
+.form-email input {
+  border: none;
+}
+.form-email button {
+  border: none;
+  background-color: orange;
+  font-weight: 700;
+  width: 100px;
+  height: 27px;
+  align-items: end;
+  color: white;
+}
+.left-part {
+  width: 570px;
+}
+.left-part p {
+  padding: 20px 30px 20px 0px;
+}
+
+.week {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/ExperienceTask-2/Assets/food-table.jpg);
+  background-size: cover;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+}
+.week-box {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.time {
+  height: 100px;
+  width: 100px;
+  align-items: center;
+  background-color: #f0c133;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+footer {
+  background-color: #1e1d1d;
+  color: #fff;
+  text-align: center;
+  padding: 13px 0;
+  font-size: 14px;
+}
+
+/* Mobile Styles */
+@media (max-width: 467px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .contact .social {
+    padding: 5px;
+    margin-left: 30px;
+  }
+  hr {
+    margin-left: 30px;
+  }
+  .follow h4 {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .insta-img {
+    margin-left: 30px;
+  }
+  .follow p {
+    align-items: start;
+    text-align: end;
+    width: 350px;
+    padding: 6px 0px;
+  }
+
+  .abt {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    margin-left: 30px;
+  }
+
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter img {
+    height: 200px;
+    width: 250px;
+  }
+  .left-part h3 {
+    margin-left: 15px;
+  }
+
+  .form-email {
+    margin-left: 15px;
+    margin-bottom: 25px;
+  }
+
+  .left-part {
+    width: 350px;
+    align-items: start;
+    margin-left: 30px;
+  }
+
+  .week-box {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .time {
+    height: 150px;
+    width: 160px;
+    align-items: center;
+    background-color: #f0c133;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+  .time h2 {
+    margin-top: 50px;
+  }
+
+  .hero {
+    padding: 50px;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .welcome {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 70px;
+  }
+  .welcome svg {
+    text-align: center;
+    width: 370px;
+  }
+  .container h1 {
+    width: 290px;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 3px;
+    margin-left: 30px;
+  }
+
+  .container p {
+    font-size: 16px;
+    margin-left: 30px;
+    width: 280px;
+  }
+  .hero .buttons {
+    width: 280px;
+    margin: 30px 0px;
+    margin-left: 30px;
+  }
+  .cta-button {
+    margin-left: 0px;
+  }
+  .straw img {
+    width: 350px;
+    height: 370px;
+  }
+  .main1 {
+    display: none;
+  }
+  .main3 {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+
+  header {
+    height: 50px;
+  }
+  .main4 {
+    display: block;
+  }
+  .main4 i {
+    height: 35px;
+    width: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(195, 198, 198);
+    background-color: azure;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 7px 0px 7px;
+    background-color: transparent;
+  }
+
+  .meal {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .meal-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+  }
+  .meal-display img {
+    height: 270px;
+    width: 350px;
+  }
+  .meal-text {
+    width: 325px;
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  .meal-text p {
+    padding-bottom: 30px;
+  }
+
+  .map-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .head {
+    text-align: center;
+    margin: 1px;
+    margin-top: 50px;
+  }
+  .head svg {
+    width: 300px;
+  }
+  .con-detail {
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 17px;
+    margin-top: 30px;
+  }
+  .icon {
+    padding: 15px;
+  }
+  .call {
+    display: flex;
+    padding: 15px;
+  }
+  .mail {
+    display: flex;
+    padding: 15px;
+  }
+  .work {
+    display: flex;
+    padding: 15px;
+  }
+  .right-side img {
+    height: 370px;
+    width: 453px;
+    padding: 2px;
+  }
+
+  .product-meals {
+    padding: 30px;
+  }
+  .meals-rate {
+    display: flex;
+    flex-direction: column;
+  }
+  .food {
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  .food hr {
+    margin-left: 0px;
+  }
+
+  .service-availability {
+    display: flex;
+    flex-direction: column;
+  }
+}
